@@ -28,9 +28,13 @@ docker run --rm -it -p 8888:8888 jupyter/my-datascience-notebook
 ```
 
 ### With `docker-compose`
+
+### Use this to lauch the docker container. Make sure you're in the my-datascience-notebook directory
+
 Build and run:
 
 ```bash
+cd ./OneDrive/Desktop/my-datascience-notebook/my-datascience-notebook
 docker-compose up
 # - It should publish port 8888
 # - It should mount the local directory as a volume in the container's
